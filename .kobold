@@ -1,0 +1,35 @@
+[_kobold_config]
+format_version = 0.3.0
+
+[raylib-linux]
+repo = raysan5/raylib
+source = https://github.com
+dir = external/
+commit = 'c57b8d5'
+label = linux-x64-shared
+
+[raygui]
+repo = raysan5/raygui
+source = https://github.com
+dir = external/
+commit = 'dd36bff'
+
+[stc]
+repo = stclib/stc
+source = https://github.com
+dir = external/
+commit = '09790f0'
+
+;[raylib-web]
+;repo = raysan5/raylib
+;source = https://github.com
+;dir = external/emscripten/
+;commit = 'cb1c2ff'
+;label = web
+
+;[emscripten]
+;repo = emscripten-core/emscripten
+;source = https://github.com
+;dir = external/emscripten/
+;commit = 'd581c72'
+
